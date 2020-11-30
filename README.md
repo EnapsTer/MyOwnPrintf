@@ -1,2 +1,18 @@
 # MyOwnPrintf
-This project is pretty straight forward. You will recode printf. Hopefully you will be able to reuse it in future project without the fear of being flagged as a cheater. You will mainly learn how to use variadic arguments.
+Makefile compile library libftprintf.a, that include function ft_printf().
+
+Prototype:
+
+int ft_printf(const char s, ...);
+
+Describe:
+
+Displays to console symbols like printf(stdio.h) (man printf).
+
+Realise types: %c, %s, %p, %d, %i, %u, %x and %X
+
+Realise flags: 0 - *(width) .(precision, works with *).
+
+Return values:
+
+Number of characters printed or -1, if error.
